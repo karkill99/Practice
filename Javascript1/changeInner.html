@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        background-color: aquamarine;
+        border: 10px;
+        text-align: center;
+      }
+    </style>
+    <script>
+      // take the reference of element
+      function f1() {
+        var h2ref = document.getElementById("h2Id");
+        var h4ref = document.getElementById("h4Id");
+        var pref = document.getElementById("pId");
+
+        // change the content of element
+        h2ref.innerText = "JavaScript";
+        h4ref.innerText = "DOM Manipulation";
+        pref.innerText = "This is JavaScript Code";
+
+        h2ref.style.color = "red";
+        h4ref.style.color = "green";
+        pref.style.color = "coral";
+      }
+      function f2() {
+        var h2ref = document.getElementById("h2Id");
+        var h4ref = document.getElementById("h4Id");
+        var pref = document.getElementById("pId");
+
+        // change the content of element
+        h2ref.innerText = "HTML";
+        h4ref.innerText = "Tag Concept";
+        pref.innerText = "This is HTML Code";
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h2 id="h2Id">HTML</h2>
+      <h4 id="h4Id">Tag Concept</h4>
+      <p id="pId">This is HTML Code</p>
+      <button onclick="f1()">Change to JS</button>
+      <button onclick="f2()">Change to HTML</button>
+    </div>
+  </body>
+</html>

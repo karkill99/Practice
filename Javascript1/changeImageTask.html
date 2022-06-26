@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>changeImageTask</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      #Container {
+        width: 500px;
+        margin-top: 100px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        padding: 30px;
+        margin: 30px auto;
+      }
+      img {
+        margin-top: 10px;
+        height: 300px;
+        width: 400px;
+      }
+      #buttons {
+        margin-top: 20px;
+      }
+      #Container {
+        background-color: rgb(202, 163, 238);
+      }
+    </style>
+    <script>
+      function Friend() {
+        // Get Reference
+        friendRef = document.getElementById("FriendImg");
+        divRef = document.getElementById("Container");
+
+        // Change The Value
+        friendRef.src =
+          "https://images.pexels.com/photos/1974927/pexels-photo-1974927.jpeg?auto=compress&cs=tinysrgb&w=600";
+        divRef.style.backgroundColor = "lightcoral";
+      }
+
+      function Family() {
+        //Get Reference
+        familyref = document.getElementById("FriendImg");
+        divRef = document.getElementById("Container");
+        // Change The Value
+        familyref.src =
+          "https://images.pexels.com/photos/1128316/pexels-photo-1128316.jpeg?auto=compress&cs=tinysrgb&w=600";
+        divRef.style.backgroundColor = "lightgreen";
+      }
+      function Refresh() {
+        //Get Reference
+        RefreshRef = document.getElementById("FriendImg");
+        divRef = document.getElementById("Container");
+        // Refresh The Image
+        RefreshRef.src =
+          "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600";
+        divRef.style.backgroundColor = "";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="Container">
+      <img
+        id="FriendImg"
+        src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
+        alt=""
+      />
+      <br />
+      <div id="buttons" class="col-md-12 text-center">
+        <button onclick="Friend()" class="btn btn-info me-md-2" type="button">
+          Friends
+        </button>
+        <button onclick="Family()" class="btn btn-danger me-md-2" type="button">
+          Family
+        </button>
+        <button
+          onclick="Refresh()"
+          class="btn btn-warning me-md-2"
+          type="button"
+        >
+          Refresh
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>placeholderTxtChange</title>
+    <style>
+      #Container {
+        width: 500px;
+        margin-top: 100px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        padding: 30px;
+        margin: 30px auto;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script>
+      function fun() {
+        // taking the reference of element
+        var ref1 = document.getElementById("Id");
+        divRef = document.getElementById("Container");
+        // changing the element text
+        ref1.placeholder = "The text Has Been Changed";
+        divRef.style.backgroundColor = "lightcoral";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="Container">
+      <h2>Change Placeholder Text</h2>
+      <br />
+      Name:<input id="Id" type="text" placeholder="Enter Text" />
+      <button class="btn btn-info" onclick="fun()">Change Placeholder</button>
+    </div>
+  </body>
+</html>

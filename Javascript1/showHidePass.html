@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>showHidePass</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <style>
+      #Container {
+        width: 500px;
+        margin-top: 100px;
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        padding: 30px;
+        margin: 30px auto;
+        background-color: aquamarine;
+      }
+    </style>
+    <script>
+      function fun1() {
+        // Get the Reference
+        var inputRef = document.getElementById("In");
+        var buttonRef = document.getElementById("Btn");
+
+        if (inputRef.type === "password") {
+          // Change The Element Value
+          inputRef.type = "Text";
+          buttonRef.innerText = "Hide Password";
+        } else {
+          inputRef.type = "password";
+          buttonRef.innerText = "Show Password";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="Container">
+      <div>
+        Password : <input id="In" type="password" placeholder="Password" />
+        <button class="btn btn-warning me-md-2" id="Btn" onclick="fun1()">
+          Show Password
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
