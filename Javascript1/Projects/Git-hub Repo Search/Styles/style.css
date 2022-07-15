@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-colour: #0079ff;
+  --background-colour: #f6f8ff;
+  --content-background: #fefefe;
+  --input-placeholder: #4b6a9b;
+  --mode-colour: #697c9a;
+  --number-colour: #2b3442;
+  --text-colour: #222731;
+}
+
+/* main container */
+
+main {
+  background-color: var(--background-colour);
+  padding: 144px 0;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 730px;
+  width: 60%;
+}
+
+.logo a,
+.colour-mode small,
+.search-bar input[type="submit"] {
+  font-weight: 700;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.logo a,
+.colour-mode small {
+  color: var(--text-colour);
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.colour-mode small::after {
+  content: "dark";
+}
+
+.colour-mode small:hover {
+  color: var(--text-colour);
+}
+
+.colour-mode .moon-icon path {
+  fill: var(--text-colour);
+}
+
+.colour-mode small {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-right: 16px;
+  color: var(--input-placeholder);
+}
+
+.sun-icon {
+  display: none;
+}
+
+/* Search bar section */
+.search-bar {
+  margin-bottom: 24px;
+}
+
+.form-container {
+  position: relative;
+}
+
+.search-bar input[type="search"] {
+  width: 100%;
+  padding: 22px 80px 22px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--content-background);
+  color: var(--text-colour);
+}
+
+.search-bar input[type="search"]:focus {
+  outline: none;
+}
+
+.search-bar input[type="search"]::placeholder {
+  color: var(--input-placeholder);
+  font-size: 18px;
+}
+
+.search-bar img,
+.search-bar input[type="submit"],
+.error-message {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.error-message {
+  color: red;
+  right: 140px;
+  font-weight: 700;
+  display: none;
+}
+
+.search-bar img {
+  left: 32px;
+}
+
+.search-bar input[type="submit"] {
+  right: 10px;
+  border: 0;
+  background-color: var(--primary-colour);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+.search-bar input[type="submit"]:hover {
+  background-color: #60abff;
+}
