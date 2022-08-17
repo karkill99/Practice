@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 400px;
+    display: flex;
+    /* width: 80%; */
+    
+
+    /* align-items: stretch; */
+    /* align-items: flex-end; */
+    align-items: flex-start;
+    /* align-items: center; */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+
+     
+}
+h1{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    
+}
+.container div{
+    background-color: rgb(98, 235, 228);
+    border: 1px solid black;
+
+}
+.div1{
+    order: 1;
+    flex: 1;
+}
+.div2{
+    order: 2;
+    flex: 1;
+}
+.div3{
+    order: 3;
+    flex: 1;
+}

@@ -93,6 +93,7 @@ header {
   font-size: 18px;
   background-color: var(--content-background);
   color: var(--text-colour);
+  border-radius: 20px;
 }
 
 .search-bar input[type="search"]:focus {
@@ -135,4 +136,9 @@ header {
 
 .search-bar input[type="submit"]:hover {
   background-color: #60abff;
+}
+
+.search-bar,
+.github-user {
+  box-shadow: 0 16px 38px rgba(78, 96, 187, 0.1);
 }
