@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 
 // let sayMyName = function() {
@@ -15,12 +15,12 @@
 
 
 
-let sum2Num = function(x,y){
-    z = x+y;
-    return z;
-}
-let sumTwo = sum2Num;
-console.log(sumTwo(8,8));
+// let sum2Num = function(x,y){
+//     z = x+y;
+//     return z;
+// }
+// let sumTwo = sum2Num;
+// console.log(sumTwo(8,8));
 
 
 
@@ -129,3 +129,41 @@ console.log(sumTwo(8,8));
 // }
 // console.log(a);
 // // console.log(a());
+
+//******************************************** */
+let a = 16;
+let sum;
+let mul;
+if(a>18){
+     sum = function(){
+        console.log("I Am Addition");
+    }
+    
+} else{
+     mul = function(){
+        console.log("I Am Multiplication");
+
+    }
+}
+
+// sum();
+mul();
+// console.log(mul());
+
+//******************************************** */
+// let b = 20;
+
+// if(b>18){
+//       function sum(){
+//         console.log("I Am Addition");
+//     }
+//     // sum();
+    
+// } else{
+//      function mul(){
+//         console.log("I Am Addition");
+//     }
+//     // mul();
+// }
+
+// console.log(sum());
