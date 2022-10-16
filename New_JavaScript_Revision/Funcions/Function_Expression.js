@@ -1,13 +1,13 @@
-'use strict';
+// 'use strict';
 
 
-// let sayMyName = function() {
+let sayMyName = function() {
 
-//     console.log("Hiesenberg");
-// }
+    console.log("Hiesenberg");
+}
 
-// console.log(sayMyName());
-// // sayMyName();
+console.log(sayMyName());
+// sayMyName();
 
 
 
@@ -15,123 +15,124 @@
 
 
 
-// let sum2Num = function(x,y){
-//     z = x+y;
-//     return z;
-// }
-// let sumTwo = sum2Num;
-// console.log(sumTwo(8,8));
+let sum2Num = function(x,y){
+    z = x+y;
+    return z;
+}
+let sumTwo = sum2Num;
+console.log(sumTwo(8,8));
 
 
 
 // ************************ Function Declaration ******************
 
 
-// function myName (a,b){
+function myName (a,b){
     
-//     return a+b;
+    return a+b;
     
-// }
-// console.log(myName(8,8));
-// myName();
+}
+console.log(myName(8,8));
+myName();
 
 // ************************ Diff Between Function Declration Function Expression
 
 
 // Function Declration
 
-// let age = 12;
+let age1 = 12;
 
 
-// if(age >18) {
-//     function isEligible() {
-//         console.log("Yes");
-//     }
-//     isEligible();
+if(age >18) {
+    function isEligible() {
+        console.log("Yes");
+    }
+    isEligible();
     
-// } else {
-//     function isEligible() {
-//         console.log("No");
-//     }
-//     isEligible();
-// }
+} else {
+    function isEligible() {
+        console.log("No");
+    }
+    isEligible();
+}
 
-// isEligible();
+isEligible();
 
 // *****************************Function Expression *******************
 
-// let age = 20
-// let isEligible;
+let age = 20
+let isEligible;
 
 
-// if(age>18){
-//     isEligible = function() {
-//         console.log("Yes");
-//     }
-//     isEligible();
-// } else {
-//     isEligible = function() {
-//         console.log("No");
-//     }
-//     isEligible();
-// }
-// isEligible();
+if(age>18){
+    isEligible = function() {
+        console.log("Yes");
+    }
+    isEligible();
+} else {
+    isEligible = function() {
+        console.log("No");
+    }
+    isEligible();
+}
+isEligible();
 
 // **************************************
 
-// let op = '+';
-// // let add;
-// // let mul;
+let op = '+';
+// let add;
+// let mul;
 
-// if(op == '+'){
-//     function add(a,b){
-//         console.log(a+b);
-//     }
-// } else {
-//     function mul(a,b){
-//         console.log(a*b);
-//     }
-// }
+if(op == '+'){
+    function add(a,b){
+        console.log(a+b);
+    }
+} else {
+    function mul(a,b){
+        console.log(a*b);
+    }
+}
 
-// add(4,3);
-// mul(4,3);
+add(4,3);
+mul(4,3);
 
 //********************************************** 
 
-// function num (){
-//     console.log("Hi There");
-// }
+function num (){
+    console.log("Hi There");
+}
 
-// console.log(num);
+console.log(num);
 
-// let a = function(){
-//     console.log("my Name Is Hiesenberg");
-// }
+let a = function(){
+    console.log("my Name Is Hiesenberg");
+}
 
-// console.log(a);
+console.log(a);
+
 // **********************************************
 
-// console.log(a);
-// let a = 10;
-// console.log(a);
+console.log(a);
+let ab = 10;
+console.log(a);
 
 // ********************* 
 
-// console.log(b);
-// var b= 10;
-// console.log(b);
+console.log(b);
+var b= 10;
+console.log(b);
 
-//*************************** 
+// *************************** 
 
-// console.log(a);
-// let a = function() {
-//     console.log("Yes");
-// }
-// console.log(a);
-// // console.log(a());
+console.log(a);
+let abc = function() {
+    console.log("Yes");
+}
+console.log(a);
+console.log(a());
 
 //******************************************** */
-let a = 16;
+let num = 16;
 let sum;
 let mul;
 if(a>18){
@@ -148,22 +149,22 @@ if(a>18){
 
 // sum();
 mul();
-// console.log(mul());
+console.log(mul());
 
 //******************************************** */
-// let b = 20;
+let b = 20;
 
-// if(b>18){
-//       function sum(){
-//         console.log("I Am Addition");
-//     }
-//     // sum();
+if(b>18){
+      function Sum(){
+        console.log("I Am Addition");
+    }
+    // sum();
     
-// } else{
-//      function mul(){
-//         console.log("I Am Addition");
-//     }
-//     // mul();
-// }
+} else{
+     function mul(){
+        console.log("I Am Addition");
+    }
+    // mul();
+}
 
-// console.log(sum());
+console.log(sum());
