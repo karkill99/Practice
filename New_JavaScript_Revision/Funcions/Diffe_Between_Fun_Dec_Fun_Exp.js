@@ -1,21 +1,21 @@
-// let num = 16;
-// let sum;
-// let mul;
-// if(num>18){
-//      sum = function(){
-//         console.log("I Am Addition");
-//     }
+let num = 16;
+let sum;
+let mul;
+if(num>18){
+     sum = function(){
+        console.log("I Am Addition");
+    }
     
-// } else{
-//      mul = function(){
-//         console.log("I Am Multiplication");
+} else{
+     mul = function(){
+        console.log("I Am Multiplication");
 
-//     }
-// }
+    }
+}
 
-// // sum();
-// mul();
-// console.log(mul());
+// sum();
+mul();
+console.log(mul());
 
 //******************************************** */
 let b = 16;
@@ -33,6 +33,6 @@ if(b>18){
     // mul();
 }
 
-// console.log(Sum());
-// console.log(multi());
+console.log(Sum());
+console.log(multi());
 multi();
