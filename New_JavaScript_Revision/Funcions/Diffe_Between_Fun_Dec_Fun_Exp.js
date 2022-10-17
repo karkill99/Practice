@@ -18,7 +18,7 @@
 // console.log(mul());
 
 //******************************************** */
-let b = 20;
+let b = 16;
 
 if(b>18){
       function Sum(){
@@ -28,10 +28,11 @@ if(b>18){
     
 } else{
      function multi(){
-        console.log("I Am Addition");
+        console.log("I Am Multiplication");
     }
     // mul();
 }
 
-console.log(Sum());
-console.log(multi());
+// console.log(Sum());
+// console.log(multi());
+multi();
