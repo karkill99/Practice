@@ -1,3 +1,4 @@
+// 'use strict';
 let num = 16;
 let sum;
 let mul;
@@ -15,7 +16,7 @@ if(num>18){
 
 // sum();
 mul();
-console.log(mul());
+// console.log(mul());
 
 //******************************************** */
 let b = 16;
@@ -33,6 +34,7 @@ if(b>18){
     // mul();
 }
 
+multi();
 console.log(Sum());
 console.log(multi());
 multi();
