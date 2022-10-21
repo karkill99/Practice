@@ -21,7 +21,19 @@ function sumNNumbers(){
     for(let i=1; i<=n; i++){
         sumOfN = sumOfN + i;
     }
-    console.log(sumOfN);
+    console.log(sumOfN); 
 }
 
 sumNNumbers();
+
+// Easiest Way of printing sum of N numbers 
+
+let num = parseInt(prompt());
+// let num =10;
+let sum;
+function sumOfAllNum(){    
+    sum = num * (num + 1) /2
+    console.log(sum);
+}
+
+sumOfAllNum();
