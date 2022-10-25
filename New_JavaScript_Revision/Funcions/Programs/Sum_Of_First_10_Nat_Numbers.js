@@ -39,13 +39,3 @@ function sumOfAllNum(){
 sumOfAllNum();
 
 // **********************************************
-
-// let num = parseInt(prompt());
-// // let num =10;
-// let sum;
-// function sumOfAllNum(){    
-//     sum = num * (num + 1) /2
-//     console.log(sum);
-// }
-
-// sumOfAllNum();
