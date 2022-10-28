@@ -1,6 +1,6 @@
 // WAP A Program To Print Factorial Of Given Number
 
-let num = 1;
+let num = 0;
 
 function Factorial(){
     let fact = 1;
@@ -10,4 +10,20 @@ function Factorial(){
         console.log(fact);
     }  
     
-Factorial();
+Factorial();5
+
+
+// ********************************
+// Taking input from user
+
+let n = parseInt(prompt("Enter Any Number"));
+
+function fact (){
+    let facto = 1;
+    for(let i = 2; i<=n; i++){
+        facto = facto * i;
+    }
+    console.log(facto);
+}
+
+fact();
