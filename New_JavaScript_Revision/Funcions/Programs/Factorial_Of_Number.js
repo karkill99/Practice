@@ -10,7 +10,7 @@ function Factorial(){
         console.log(fact);
     }  
     
-Factorial();5
+Factorial();
 
 
 // ********************************
