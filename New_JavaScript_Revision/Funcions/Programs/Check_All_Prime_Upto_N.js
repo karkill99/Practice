@@ -40,6 +40,6 @@ function fun(num){
             return false;
         }
     }
-    return true;
+    return true
 }
 
