@@ -8,7 +8,7 @@ for(let idx=0; idx<=number; idx++){
     if(fun(idx)){
         counter++;
         if(counter === number2){
-            console.log(idx);
+            console.log(idx)
         }
     }
 }
