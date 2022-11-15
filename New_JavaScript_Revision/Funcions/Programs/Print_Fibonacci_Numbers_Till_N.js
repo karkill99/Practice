@@ -19,10 +19,10 @@ function fun(Number){
     let b=1;
     let c=1;
     for(let idx=0; idx<Number; idx++){
-        console.log(a);
         a=b; 
         b=c;
         c=a+b;
     }
+    console.log(a);
 }
 fun(10);
