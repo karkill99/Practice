@@ -11,7 +11,6 @@ for(let idx=0; idx<=number; idx++){
         }
     }
 }
-
 function fun(num){
     if(num<=1){
         return false;
