@@ -1,5 +1,4 @@
 // WAP to print sum of digits
-
 let number = 21321;
 
 fun(number);
