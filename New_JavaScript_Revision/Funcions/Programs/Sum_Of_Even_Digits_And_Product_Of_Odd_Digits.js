@@ -1,7 +1,7 @@
 let number = 1234567;
 let sumOfNumber = 0;
 let productOfNumber = 1;
-let temp = 0;
+// let temp = 0;
 while (number > 0) {
   temp = number % 10;
   if (temp % 2 === 0) {
