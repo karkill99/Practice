@@ -13,4 +13,4 @@ while (number > 0) {
 }
 
 console.log(sumOfNumber);
-console.log(productOfNumber);
+// console.log(productOfNumber);
