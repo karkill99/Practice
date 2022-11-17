@@ -12,5 +12,5 @@ while (number > 0) {
   number = parseInt(number / 10);
 }
 
-// console.log(sumOfNumber);
-// console.log(productOfNumber);
+console.log(sumOfNumber);
+console.log(productOfNumber);
