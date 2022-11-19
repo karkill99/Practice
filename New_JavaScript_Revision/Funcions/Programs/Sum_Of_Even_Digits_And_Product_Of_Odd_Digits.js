@@ -7,7 +7,7 @@ while (number > 0) {
   if (temp % 2 === 0) {
     sumOfNumber = sumOfNumber + temp;
   } else {
-    // productOfNumber = productOfNumber * temp;
+    productOfNumber = productOfNumber * temp;
   }
   number = parseInt(number / 10);
 }
