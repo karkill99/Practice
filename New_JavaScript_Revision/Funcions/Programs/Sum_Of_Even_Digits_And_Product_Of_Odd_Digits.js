@@ -9,7 +9,7 @@ while (number > 0) {
   } else {
     productOfNumber = productOfNumber * temp;
   }
-  number = parseInt(number / 10);
+  number = parseInt( / 10);
 }
 
 console.log(sumOfNumber);
