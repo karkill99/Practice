@@ -17,4 +17,4 @@ function fun(num) {
 }
 
 fun(number);
-// console.log(fun(number));
+console.log(fun(number));
