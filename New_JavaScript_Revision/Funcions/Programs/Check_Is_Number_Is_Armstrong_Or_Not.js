@@ -17,4 +17,4 @@ function fun(num) {
   }
 }
 
-fun(number);
+// fun(number);
