@@ -7,14 +7,14 @@ function fun(num) {
     temp = num % 10;
     arm = arm + temp * temp * temp;
 
-    num = num / 10;
-  }
-  if (arm === org) {
-    console.log("Number Is Armsrong");
+    num = parseInt(num / 10);
   }
 
-  console.log();
+  if (arm === org) {
+    console.log("Number Is Armsrong");
+  } else {
+    console.log("Number Is Not Armstrong");
+  }
 }
 
 fun(number);
-console.log(fun(number));
