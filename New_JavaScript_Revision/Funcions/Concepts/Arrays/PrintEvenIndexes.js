@@ -12,6 +12,6 @@ for (let i = 0; i < arr.length; i = i + 2) {
 
 for (let i = 0; i < arr.length; i = i + 2) {
   if (i % 2 === 0) {
-    console.log(arr[i]);
+    // console.log(arr[i]);
   }
 }
