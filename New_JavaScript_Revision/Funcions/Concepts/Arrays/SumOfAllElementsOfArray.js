@@ -34,4 +34,4 @@ function popOperation(arr1) {
   return arr1;
 }
 
-// console.log(res);
+console.log(res);
