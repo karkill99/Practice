@@ -39,5 +39,5 @@
 let arr1 = [1, 2, 3, 4, 5, 6, 7];
 
 let l = arr1.length - 1;
-// console.log(l);
-// console.log(arr1[parseInt(l / 2)]);
+console.log(l);
+console.log(arr1[parseInt(l / 2)]);
