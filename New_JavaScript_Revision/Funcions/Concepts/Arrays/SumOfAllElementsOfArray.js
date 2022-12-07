@@ -86,3 +86,9 @@
 // console.log(arr1);
 
 /************************************************/
+
+let arr1 = [2, 1, 6, 4, 5, 3, 7];
+console.log(arr1);
+let sorted = arr1.sort();
+console.log(sorted);
+console.log(arr1);
