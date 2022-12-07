@@ -78,9 +78,11 @@
 // arr1.pop();
 // console.log(arr1);
 
-/************************************************/
+/********************/
 // Delete The Middle Element Using Slice
 // let str = arr1.length / 2;
 // console.log(str);
 // arr1.splice(str, 1);
 // console.log(arr1);
+
+/************************************************/
