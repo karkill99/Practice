@@ -83,6 +83,6 @@
 // let str = arr1.length / 2;
 // console.log(str);
 // arr1.splice(str, 1);
-console.log(arr1);
+// console.log(arr1);
 
 /************************************************/
