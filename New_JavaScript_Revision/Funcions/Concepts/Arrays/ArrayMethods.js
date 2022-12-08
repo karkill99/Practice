@@ -86,3 +86,10 @@
 // console.log(arr1);
 
 /************************************************/
+
+var x = 21;
+var y = function () {
+  console.log(x);
+  var x = 20;
+};
+y();
