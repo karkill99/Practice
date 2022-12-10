@@ -8,4 +8,4 @@ function callbc() {
 function prntname() {
   console.log("abxx");
 }
-callbc();
+// callbc();
