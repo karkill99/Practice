@@ -8,7 +8,7 @@ if (num > 18) {
   };
 } else {
   mul = function () {
-    // console.log("I Am Multiplication");
+    console.log("I Am Multiplication");
   };
 }
 
