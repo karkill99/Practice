@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Change Text</title>
+    <style>
+        div{
+            box-shadow: 0 0 30px black;
+            width: 500px;
+            padding: 50px;
+            text-align: center;
+            margin: 200px auto;
+        }
+    </style>
+    <script>        
+        function Gm(){
+            let h2Reference = document.getElementById("h2ref");
+            h2Reference.innerText = "Good Morning Geekster"
+        }
+        function Ge(){
+            let h2Reference = document.getElementById("h2ref");
+            h2Reference.innerText = "Good Evening Geekster"
+        }
+        function Gn(){
+            let h2Reference = document.getElementById("h2ref");
+            h2Reference.innerText = "Good Night Geekster"
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2 id="h2ref">Hello Geekster</h2>
+        <button onclick="Gm()">Good Morning</button>
+        <button onclick="Ge()">Good Evening</button>
+        <button onclick="Gn()">Good Night</button>
+    </div>
+    
+</body>
+</html>
