@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fun(){
+           let h1Reference = document.getElementById("h1Ref");
+           let h4Reference = document.getElementById("h4Ref");
+           let paraReference = document.getElementById("paraRef");
+           
+           h1Reference.innerText = "JavaScript";
+           h1Reference.style.color = "red";
+           h4Reference.innerText = "DOM Manipulation";
+           h4Reference.style.color = "green";
+           paraReference.innerText = "THis JavaScript Code";
+           paraReference.style.color = "blue"
+
+        }
+
+
+    </script>
+</head>
+<body>
+    <h1 id="h1Ref">HTML</h1>
+    <h4 id="h4Ref">This Is Paragraph Tag</h4>
+    <p id="paraRef">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quod.</p>
+
+    <button onclick="fun()">Change To JS</button>
+</body>
+</html>
