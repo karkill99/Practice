@@ -4,7 +4,7 @@
     <title>Change Text</title>
     <style>
         div{
-            box-shadow: 0 0 30px black;
+            box-shadow: 0 0 50px black;
             width: 500px;
             padding: 50px;
             text-align: center;
@@ -13,21 +13,33 @@
     </style>
     <script>        
         function Gm(){
+            let divReferernce = document.getElementById("divRef");
+            divReferernce.style.boxShadow = "0 0 50px green";
+
             let h2Reference = document.getElementById("h2ref");
             h2Reference.innerText = "Good Morning Geekster"
+            h2Reference.style.color = "red";
         }
         function Ge(){
+            let divReferernce = document.getElementById("divRef");
+            divReferernce.style.boxShadow = "0 0 50px red";
+
             let h2Reference = document.getElementById("h2ref");
-            h2Reference.innerText = "Good Evening Geekster"
+            h2Reference.innerText = "Good Evening Geekster";
+            h2Reference.style.color = "green";
         }
         function Gn(){
+            let divReferernce = document.getElementById("divRef");
+            divReferernce.style.boxShadow = "0 0 50px orange";
+
             let h2Reference = document.getElementById("h2ref");
-            h2Reference.innerText = "Good Night Geekster"
+            h2Reference.innerText = "Good Night Geekster";
+            h2Reference.style.color = "blue";
         }
     </script>
 </head>
 <body>
-    <div>
+    <div id="divRef">
         <h2 id="h2ref">Hello Geekster</h2>
         <button onclick="Gm()">Good Morning</button>
         <button onclick="Ge()">Good Evening</button>

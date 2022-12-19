@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Take Input Text</title>
+    <style>
+        div{
+            box-shadow: 0 0 50px black;
+            width: 500px;
+            padding: 50px;
+            text-align: center;
+            margin: 200px auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 id="h3Ref">Text</h3>
+        <input id="inputFRef" type="text">
+        <button onclick="btn()">Submit</button>
+    </div>
+    <script>
+        function btn(){
+            let h3Reference = document.getElementById("h3Ref");
+            let inputReference = document.getElementById("inputFRef");
+            // h3Reference.innerText = inputReference.value;
+        }
+
+    </script>
+</body>
+</html>
