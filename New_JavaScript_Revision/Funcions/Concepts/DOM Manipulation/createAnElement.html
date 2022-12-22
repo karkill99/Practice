@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create An New Element</title>
+    <style>
+      div {
+        box-shadow: 0 0 10px black;
+        text-align: center;
+        padding: 50px;
+        width: 500px;
+        margin: 150px auto;
+      }
+    </style>
+    <script>
+        function createNewElement(){            
+            
+            let InputRef = document.querySelector("#inRef");
+            let h2Ref = document.createElement("h2");
+            
+            h2Ref.innerText = InputRef.value;
+            console.log(InputRef.value);
+            document.getElementById("main").appendChild(h2Ref);
+        }   
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <input type="text" id="inRef" placeholder="Enter Text" />
+      <button onclick="createNewElement()">Submit</button>
+    </div>
+  </body>
+</html>
