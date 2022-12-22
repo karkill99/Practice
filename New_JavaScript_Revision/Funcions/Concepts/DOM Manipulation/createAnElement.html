@@ -16,12 +16,11 @@
     </style>
     <script>
         function createNewElement(){            
-            
+
             let InputRef = document.querySelector("#inRef");
             let h2Ref = document.createElement("h2");
             
             h2Ref.innerText = InputRef.value;
-            console.log(InputRef.value);
             document.getElementById("main").appendChild(h2Ref);
         }   
     </script>
