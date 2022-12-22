@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create List</title>
     <style>
-        div{
+        div {
             box-shadow: 0 0 10px black;
             padding: 50px;
             /* height: 50px */
@@ -17,29 +18,31 @@
     </style>
     <script>
 
-         let olRef = document.createElement("ol"); // <ol> </ol>
+        let olRef = document.createElement("ol"); // <ol> </ol>
 
-        function generateList(){
+        function generateList() {
             let inputReference = document.getElementById("inputRef");
 
-           
+
             let liRef = document.createElement("li"); // <li> </li>
 
             olRef.appendChild(liRef);  // <ol> <li></li> </ol>
             liRef.innerText = inputReference.value;
 
-            let divReference = document.getElementById("divRef");
-            divReference.appendChild(olRef);
-            inputReference.value = "";
+            // let divReference = document.getElementById("divRef");
+            // divReference.appendChild(olRef);
+            // inputReference.value = "";
 
         }
     </script>
 </head>
+
 <body>
     <div id="divRef">
         <input id="inputRef" type="text" placeholder="Enter Text">
         <button onclick="generateList()">Submit</button>
     </div>
-    
+
 </body>
+
 </html>
