@@ -3,6 +3,7 @@
 
 // let  sum=0;
 
+
 // while ( num>0){
 
 //     let rem=num%10;
