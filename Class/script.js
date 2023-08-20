@@ -25,4 +25,3 @@ for (let i = 0; i < array.length; i++) {
     sum += array[i];
 }
 array.pop(sum)
-
