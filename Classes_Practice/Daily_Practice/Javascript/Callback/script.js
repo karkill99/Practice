@@ -1,5 +1,4 @@
 
-
 // let store = {
 //     fruits: [" strawberry", "mango", "cherry", "grapes"],
 //     liquids: ["water", "ice"],
