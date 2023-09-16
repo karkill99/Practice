@@ -12,7 +12,6 @@
 
 //     num=parseInt(num/10);
 
-
 // }
 
 // document.write(sum)
